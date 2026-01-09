@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 import { useComponentScript } from '../../hooks/useComponentScript';
 
 const projects = [
-  '/assets/images/New folder/project-1-1.jpg',
-  '/assets/images/New folder/project-1-2.jpg',
-  '/assets/images/New folder/project-1-3.jpg',
-  '/assets/images/New folder/project-1-4.jpg',
-  '/assets/images/New folder/project-1-5.jpg',
+  '/assets/images/projects/project-1.jpg',
+  '/assets/images/projects/project-2.jpg',
+  '/assets/images/projects/project-3.jpg',
+  '/assets/images/projects/project-4.jpg',
+  '/assets/images/projects/project-7.jpg',
 ];
 
 function ProjectSection() {
@@ -114,7 +114,7 @@ function ProjectSection() {
         <div
           className="project-one__bg"
           style={{
-            backgroundImage: 'url(/assets/images/backgrounds/project-one-bg.webp)',
+            backgroundImage: 'url(/assets/images/backgrounds/backdrop-1.jpg)',
           }}
         ></div>
       </div>

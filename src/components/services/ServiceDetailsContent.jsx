@@ -39,7 +39,7 @@ function ServiceDetailsContent() {
               <div className="col-xl-6 col-lg-6">
                 <div className="services-details__img-box-img">
                   <img
-                    src="/assets/images/services/services-details-img-box-img-1.jpg"
+                    src="public/assets/images/projects/project-1.jpg"
                     alt=""
                   />
                 </div>
@@ -47,7 +47,7 @@ function ServiceDetailsContent() {
               <div className="col-xl-6 col-lg-6">
                 <div className="services-details__img-box-img">
                   <img
-                    src="/assets/images/services/services-details-img-box-img-2.jpg"
+                    src="public/assets/images/projects/project-3.jpg"
                     alt=""
                   />
                 </div>

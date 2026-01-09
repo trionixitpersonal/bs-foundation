@@ -3,7 +3,7 @@ import EventCard from './EventCard';
 const events = [
   {
     id: 1,
-    image: '/assets/images/event/event-1-1.jpg',
+    image: '/assets/images/backgrounds/slider-2-1.jpg',
     date: '10 August',
     author: 'Brooklyn Simmons',
     time: '09:05AM - 01:05 AM',
@@ -11,7 +11,7 @@ const events = [
   },
   {
     id: 2,
-    image: '/assets/images/event/event-1-2.jpg',
+    image: '/assets/images/backgrounds/slider-2-2.jpg',
     date: '23 April',
     author: 'Brooklyn Simmons',
     time: '09:05AM - 01:05 AM',
@@ -19,7 +19,7 @@ const events = [
   },
   {
     id: 3,
-    image: '/assets/images/event/event-1-3.jpg',
+    image: '/assets/images/backgrounds/slider-2-4.jpg',
     date: '03 June',
     author: 'Brooklyn Simmons',
     time: '09:05AM - 01:05 AM',
@@ -27,7 +27,7 @@ const events = [
   },
   {
     id: 4,
-    image: '/assets/images/event/event-1-4.jpg',
+    image: '/assets/images/blog/blog-5.jpg',
     date: '10 March',
     author: 'Brooklyn Simmons',
     time: '09:05AM - 01:05 AM',

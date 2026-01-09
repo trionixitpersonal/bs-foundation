@@ -7,7 +7,7 @@ const coursesData = {
   viewall: [
     {
       id: 1,
-      image: '/assets/images/New folder/courses-3-1.jpg',
+      image: '/assets/images/projects/project-1.jpg',
       tag: 'Medical',
       title: 'Providing Lifesaving Medical Support and Care.',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -17,7 +17,7 @@ const coursesData = {
     },
     {
       id: 2,
-      image: '/assets/images/New folder/courses-3-2.jpg',
+      image: '/assets/images/projects/project-2.jpg',
       tag: 'Medical',
       title: 'Providing access to safe drinking water through',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -29,7 +29,7 @@ const coursesData = {
   education: [
     {
       id: 3,
-      image: '/assets/images/New folder/courses-3-3.jpg',
+      image: '/assets/images/projects/project-3.jpg',
       tag: 'Education',
       title: 'well construction and purification projects.',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -39,7 +39,7 @@ const coursesData = {
     },
     {
       id: 4,
-      image: '/assets/images/New folder/courses-3-4.jpg',
+      image: '/assets/images/projects/project-4.jpg',
       tag: 'Education',
       title: 'Empowering Lives Through Compassion" powerful',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -51,7 +51,7 @@ const coursesData = {
   healthfood: [
     {
       id: 5,
-      image: '/assets/images/New folder/courses-3-5.jpg',
+      image: '/assets/images/projects/project-5.jpg',
       tag: 'Health & Food',
       title: 'inspiring heading that perfectly captures',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -61,7 +61,7 @@ const coursesData = {
     },
     {
       id: 6,
-      image: '/assets/images/New folder/courses-3-6.jpg',
+      image: '/assets/images/projects/project-6.jpg',
       tag: 'Health & Food',
       title: "the essence of your charity's mission.",
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -73,7 +73,7 @@ const coursesData = {
   hunger: [
     {
       id: 7,
-      image: '/assets/images/New folder/courses-3-7.jpg',
+      image: '/assets/images/projects/project-7.jpg',
       tag: 'Hunger & Nutrition',
       title: "charity's mission powerful tool It's a great choice",
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -83,7 +83,7 @@ const coursesData = {
     },
     {
       id: 8,
-      image: '/assets/images/New folder/courses-3-8.jpg',
+      image: '/assets/images/projects/project-5.jpg',
       tag: 'Hunger & Nutrition',
       title: 'We start by listening to communities and conducting',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -95,7 +95,7 @@ const coursesData = {
   treatment: [
     {
       id: 9,
-      image: '/assets/images/New folder/courses-3-9.jpg',
+      image: '/assets/images/projects/project-6.jpg',
       tag: 'Treatment',
       title: 'communities and conducting thorough assessments',
       text: 'At Chioary we believe that education is a powerful tool for change.',
@@ -105,7 +105,7 @@ const coursesData = {
     },
     {
       id: 10,
-      image: '/assets/images/New folder/courses-3-10.jpg',
+      image: '/assets/images/projects/project-7.jpg',
       tag: 'Treatment',
       title: 'The educational programs offered by Chioary',
       text: 'At Chioary we believe that education is a powerful tool for change.',

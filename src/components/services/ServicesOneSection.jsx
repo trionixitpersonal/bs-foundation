@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const services = [
   {
     id: 1,
-    image: '/assets/images/services/services-1-1.jpg',
+    image: '/assets/images/projects/project-1.jpg',
     icon: 'icon-take-away',
     title: 'Food Assistance Programs',
     text: 'Providing nutritious meals and essential groceries to individuals and families facing food insecurity.',
@@ -13,7 +13,7 @@ const services = [
   },
   {
     id: 2,
-    image: '/assets/images/services/services-1-2.jpg',
+    image: '/assets/images/projects/project-2.jpg',
     icon: 'icon-take-away',
     title: 'Holistic Support Programs',
     text: 'Providing nutritious meals and essential groceries to individuals and families facing food insecurity.',
@@ -22,7 +22,7 @@ const services = [
   },
   {
     id: 3,
-    image: '/assets/images/services/services-1-3.jpg',
+    image: '/assets/images/projects/project-3.jpg',
     icon: 'icon-take-away',
     title: 'Driven Compassion Programs',
     text: 'Providing nutritious meals and essential groceries to individuals and families facing food insecurity.',
@@ -31,7 +31,7 @@ const services = [
   },
   {
     id: 4,
-    image: '/assets/images/services/services-1-3.jpg',
+    image: '/assets/images/projects/project-4.jpg',
     icon: 'icon-take-away',
     title: 'Driven Compassion Programs',
     text: 'Providing nutritious meals and essential groceries to individuals and families facing food insecurity.',
@@ -40,7 +40,7 @@ const services = [
   },
   {
     id: 5,
-    image: '/assets/images/services/services-1-1.jpg',
+    image: '/assets/images/projects/project-5.jpg',
     icon: 'icon-take-away',
     title: 'Food Assistance Programs',
     text: 'Providing nutritious meals and essential groceries to individuals and families facing food insecurity.',
@@ -49,7 +49,7 @@ const services = [
   },
   {
     id: 6,
-    image: '/assets/images/services/services-1-2.jpg',
+    image: '/assets/images/projects/project-6.jpg',
     icon: 'icon-take-away',
     title: 'Holistic Support Programs',
     text: 'Providing nutritious meals and essential groceries to individuals and families facing food insecurity.',

@@ -4,7 +4,7 @@ import AboutSection from '../components/home/AboutSection';
 import ProgramSection from '../components/home/ProgramSection';
 import ProjectSection from '../components/home/ProjectSection';
 import ProcessSection from '../components/home/ProcessSection';
-import BlogSection from '../components/home/BlogSection';
+import BlogSection from '../components/stories/BlogSection';
 import PartnersSection from '../components/home/PartnersSection';
 import TestimonialSection from '../components/home/TestimonialSection';
 import NewsletterSection from '../components/home/NewsletterSection';

@@ -3,7 +3,7 @@ import BlogCard from './BlogCard';
 const blogPosts = [
   {
     id: 1,
-    image: '/assets/images/blog/blog-1-1.jpg',
+    image: '/assets/images/blog/blog-1.avif',
     date: '10 Aug 2024',
     author: 'cane Anderson',
     comments: '02 Comment',
@@ -11,7 +11,7 @@ const blogPosts = [
   },
   {
     id: 2,
-    image: '/assets/images/blog/blog-1-2.jpg',
+    image: '/assets/images/blog/blog-2.avif',
     date: '25 June 2024',
     author: 'cane Anderson',
     comments: '02 Comment',
@@ -19,7 +19,7 @@ const blogPosts = [
   },
   {
     id: 3,
-    image: '/assets/images/blog/blog-1-3.jpg',
+    image: '/assets/images/blog/blog-3.png',
     date: '15 March 2024',
     author: 'cane Anderson',
     comments: '02 Comment',
@@ -27,7 +27,7 @@ const blogPosts = [
   },
   {
     id: 4,
-    image: '/assets/images/blog/blog-1-4.jpg',
+    image: '/assets/images/blog/blog-4.jpg',
     date: '19 Aug 2024',
     author: 'cane Anderson',
     comments: '02 Comment',
@@ -35,7 +35,7 @@ const blogPosts = [
   },
   {
     id: 5,
-    image: '/assets/images/blog/blog-1-5.jpg',
+    image: '/assets/images/blog/blog-5.jpg',
     date: '05 June 2024',
     author: 'cane Anderson',
     comments: '02 Comment',
@@ -43,7 +43,7 @@ const blogPosts = [
   },
   {
     id: 6,
-    image: '/assets/images/blog/blog-1-6.jpg',
+    image: '/assets/images/blog/blog-6.jpg',
     date: '11 March 2024',
     author: 'cane Anderson',
     comments: '02 Comment',

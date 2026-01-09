@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 
+
 function BlogCard({ blog, delay }) {
   return (
     <div
@@ -11,12 +12,13 @@ function BlogCard({ blog, delay }) {
           <div className="blog-one__img">
             <img src={blog.image} alt="" />
             <div className="blog-one__plus">
-              <Link to="/blog-details">
-                <span className="icon-plus"></span>
+              <Link to="/blog-details" className="blog-one__btn thm-btn">
+                <span>Read More</span>
+                
               </Link>
             </div>
           </div>
-          <div className="blog-one__date">
+          {/* <div className="blog-one__date">
             <div className="blog-one__date-shape-1">
               <img
                 src="/assets/images/shapes/blog-one-date-shape-1.png"
@@ -25,12 +27,12 @@ function BlogCard({ blog, delay }) {
             </div>
             <div className="blog-one__date-shape-2">
               <img
-                src="/assets/images/shapes/blog-one-date-shape-2.png"
+                src="/assets/images/shapes/blog-one-date-shape-1.png"
                 alt=""
               />
             </div>
             <p>{blog.date}</p>
-          </div>
+          </div> */}
         </div>
         <div className="blog-one__content">
           <ul className="blog-one__meta list-unstyled">
@@ -42,19 +44,19 @@ function BlogCard({ blog, delay }) {
             <li>
               <a href="#">
                 <span className="icon-chat"></span>
-                {blog.comments}
+                {blog.date}
               </a>
             </li>
           </ul>
           <h3 className="blog-one__title">
             <Link to="/blog-details">{blog.title}</Link>
           </h3>
-          <div className="blog-one__btn-box">
+          {/* <div className="blog-one__btn-box">
             <Link to="/blog-details" className="blog-one__btn thm-btn">
               <span>Read More</span>
               <i className="icon-arrow-up"></i>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

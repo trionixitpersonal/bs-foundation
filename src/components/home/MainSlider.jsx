@@ -49,17 +49,21 @@ function MainSlider() {
 
   useEffect(() => {
     let retryCount = 0;
-    const maxRetries = 20;
+    const maxRetries = 50; // Increased for production build
     let timeoutId;
 
     const initCarousel = () => {
       // Check if jQuery and Owl Carousel are available
-      if (!window.$ || !window.$.fn.owlCarousel) {
+      if (!window.$ || !window.$.fn || !window.$.fn.owlCarousel) {
         if (retryCount < maxRetries) {
           retryCount++;
           timeoutId = setTimeout(initCarousel, 100);
         } else {
-          console.warn('Owl Carousel not available after max retries');
+          console.warn('Owl Carousel not available after max retries', {
+            hasJQuery: !!window.$,
+            hasFn: !!(window.$ && window.$.fn),
+            hasOwlCarousel: !!(window.$ && window.$.fn && window.$.fn.owlCarousel)
+          });
         }
         return;
       }

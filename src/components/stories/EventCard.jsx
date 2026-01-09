@@ -11,11 +11,11 @@ function EventCard({ event, delay }) {
           <div className="event-one__date">
             <div className="event-one__date-shape-1">
               <img
-                src="/assets/images/shapes/event-one-date-shape-1.png"
+                src="/assets/images/shapes/blog-one-date-shape-1.png"
                 alt=""
               />
             </div>
-            <p>{event.date}</p>
+            <p>{event.time}</p>
           </div>
         </div>
         <div className="event-one__content">
@@ -31,7 +31,7 @@ function EventCard({ event, delay }) {
           </h3>
           <p className="event-one__text">
             By {event.author}
-            <span>{event.time}</span>
+            <span>{event.date}</span>
           </p>
           <div className="event-one__btn-box">
             <Link to="/events" className="event-one__btn">

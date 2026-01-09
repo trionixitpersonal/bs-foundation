@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import PageHeader from '../components/about/PageHeader';
-import ProjectPageSection from '../components/programs/ProjectPageSection';
+import ProjectSection from '../components/home/ProjectSection';
+
 
 function Programs() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function Programs() {
   return (
     <div className="page-wrapper">
       <PageHeader title="Project" breadcrumbText="Project" />
-      <ProjectPageSection />
+      <ProjectSection />
     </div>
   );
 }

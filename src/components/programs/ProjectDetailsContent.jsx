@@ -12,7 +12,7 @@ function ProjectDetailsContent() {
           />
           <div className="project-details__info-box">
             <div className="project-details__info-title-box">
-              <h3 className="project-details__info-title">Project Details</h3>
+              <h3 className="project-details__info-title">Program Details</h3>
             </div>
             <div className="project-details__info-and-social">
               <div className="project-details__info">
@@ -111,13 +111,13 @@ function ProjectDetailsContent() {
             <div className="project-details__right">
               <div className="project-details__right-img-1">
                 <img
-                  src="/assets/images/project/project-details-right-img-1.jpg"
+                  src="/assets/images/projects/project-7.jpg"
                   alt=""
                 />
               </div>
               <div className="project-details__right-img-2">
                 <img
-                  src="/assets/images/project/project-details-right-img-2.jpg"
+                  src="public/assets/images/projects/project-1.jpg"
                   alt=""
                 />
               </div>

@@ -92,12 +92,6 @@ function TestimonialSection() {
 
   return (
     <section className="testimonial-three">
-      <div className="testimonial-three__shape-1 img-bounce">
-        <img
-          src="/assets/images/shapes/testimonial-three-shape-1.png"
-          alt=""
-        />
-      </div>
       <div className="container">
         <div className="testimonial-three__inner">
           <div className="testimonial-three__title-wrapper">

@@ -22,7 +22,7 @@ function NewsletterSection() {
         data-speed="0.2"
         data-imgPosition="50% 0%"
         style={{
-          backgroundImage: 'url(/assets/images/backgrounds/CTA.jpg)',
+          backgroundImage: 'url(/assets/images/backgrounds/backdrop-3.jpg)',
         }}
       ></div>
       <div className="container">

@@ -3,9 +3,9 @@ import PageHeader from '../components/about/PageHeader';
 import AboutOneSection from '../components/about/AboutOneSection';
 import CounterSection from '../components/about/CounterSection';
 import AccomplishmentSection from '../components/about/AccomplishmentSection';
-import TestimonialOneSection from '../components/about/TestimonialOneSection';
+import TestimonialSection from '../components/home/TestimonialSection';
 import FAQSection from '../components/about/FAQSection';
-import BlogOneSection from '../components/about/BlogOneSection';
+import EventSection from '../components/stories/EventSection';
 import NewsletterSection from '../components/home/NewsletterSection';
 
 function AboutUs() {
@@ -38,9 +38,12 @@ function AboutUs() {
             <AboutOneSection />
             <CounterSection />
             <AccomplishmentSection />
-            <TestimonialOneSection />
+            <div id="event-section">
+                <EventSection />
+            </div>
+            <TestimonialSection />
             <FAQSection />
-            <BlogOneSection />
+
             <NewsletterSection />
         </div>
     );

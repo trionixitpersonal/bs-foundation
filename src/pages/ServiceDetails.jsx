@@ -35,7 +35,7 @@ function ServiceDetails() {
           <div className="services-details__inner">
             <div className="services-details__img">
               <img
-                src="/assets/images/services/services-details-img-1.jpg"
+                src="/assets/images/projects/project-7.jpg"
                 alt=""
               />
             </div>
