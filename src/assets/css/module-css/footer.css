@@ -98,6 +98,12 @@
     z-index: 1;
 }
 
+.site-footer__social a img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
 .site-footer__social a:hover {
     color: var(--chioary-white);
     background-color: var(--chioary-base);

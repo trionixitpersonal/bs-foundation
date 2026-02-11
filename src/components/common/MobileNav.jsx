@@ -120,20 +120,20 @@ function MobileNav() {
         <ul className="mobile-nav__contact list-unstyled">
           <li>
             <i className="fa fa-envelope"></i>
-            <a href="mailto:needhelp@chioary.com">needhelp@chioary.com</a>
+            <a href="mailto:office@bappeshakila.org">office@bappeshakila.org</a>
           </li>
           <li>
             <i className="fas fa-phone"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="tel:+61402384501">+61 402 384 501</a>
           </li>
         </ul>
 
         <div className="mobile-nav__top">
           <div className="mobile-nav__social">
-            <a href="#" className="fab fa-twitter"></a>
-            <a href="#" className="fab fa-facebook-square"></a>
-            <a href="#" className="fab fa-pinterest-p"></a>
-            <a href="#" className="fab fa-instagram"></a>
+            <a href="https://x.com/bappeshakila" target="_blank" rel="noopener noreferrer" className="fab fa-twitter"></a>
+            <a href="https://www.facebook.com/bappeandshakilafoundation" target="_blank" rel="noopener noreferrer" className="fab fa-facebook-square"></a>
+            <a href="https://www.tiktok.com/@bappeshakilafoundation" target="_blank" rel="noopener noreferrer" className="fab fa-tiktok"></a>
+            <a href="https://www.instagram.com/bappeshakilafoundation" target="_blank" rel="noopener noreferrer" className="fab fa-instagram"></a>
           </div>
         </div>
       </div>

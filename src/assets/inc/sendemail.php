@@ -10,8 +10,8 @@ define("SMTP_PASSWORD", "your_gmail_pass"); // read documentations
 
 
 // Define Recipent Info ||  Who will get this email?
-define("RECIPIENT_NAME", "John Doe");
-define("RECIPIENT_EMAIL", "jhon@mail.com");
+define("RECIPIENT_NAME", "BS Foundation");
+define("RECIPIENT_EMAIL", "office@bappeshakila.org");
 
 
 use PHPMailer\PHPMailer\PHPMailer;

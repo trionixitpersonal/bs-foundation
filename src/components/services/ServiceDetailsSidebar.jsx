@@ -30,7 +30,7 @@ function ServiceDetailsSidebar() {
             <div className="content">
               <h4>Contact Phone</h4>
               <p>
-                <a href="tel:22202066633">+22(2020) 666 33</a>
+                <a href="tel:+61402384501">+61 402 384 501</a>
               </p>
             </div>
           </li>
@@ -41,7 +41,7 @@ function ServiceDetailsSidebar() {
             <div className="content">
               <h4>Contact Mail</h4>
               <p>
-                <a href="mailto:Chioary@gmail.com">Chioary@gmail.com</a>
+                <a href="mailto:office@bappeshakila.org">office@bappeshakila.org</a>
               </p>
             </div>
           </li>
@@ -51,7 +51,7 @@ function ServiceDetailsSidebar() {
             </div>
             <div className="content">
               <h4>Office Location</h4>
-              <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
+              <p>Level 3, 41-45 Rickard Road, Sydney, NSW, Australia, 2200</p>
             </div>
           </li>
         </ul>

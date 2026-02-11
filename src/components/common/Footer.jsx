@@ -28,16 +28,19 @@ function Footer() {
                                         involves giving.
                                     </p>
                                     <div className="site-footer__social">
-                                        <a href="#">
+                                        <a href="https://www.facebook.com/bappeandshakilafoundation" target="_blank" rel="noopener noreferrer">
                                             <i className="icon-facebook"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://x.com/bappeshakila" target="_blank" rel="noopener noreferrer">
                                             <i className="icon-twitter"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://www.instagram.com/bappeshakilafoundation" target="_blank" rel="noopener noreferrer">
                                             <i className="icon-instagram"></i>
                                         </a>
-                                        <a href="#">
+                                        <a href="https://www.tiktok.com/@bappeshakilafoundation" target="_blank" rel="noopener noreferrer">
+                                            <i className="fa-brands fa-tiktok"></i>
+                                        </a>
+                                        <a href="https://youtube.com/@bappeshakilafoundation" target="_blank" rel="noopener noreferrer">
                                             <i className="icon-youtube"></i>
                                         </a>
                                     </div>
@@ -110,8 +113,8 @@ function Footer() {
                             <div className="content">
                                 <h3>Visit our office</h3>
                                 <p>
-                                    4517 Washington Ave. Manchester, <br />
-                                    Kentucky 39495
+                                    Level 3, 41-45 Rickard Road, <br />
+                                    Sydney, NSW, Australia, 2200
                                 </p>
                             </div>
                         </li>
@@ -122,7 +125,7 @@ function Footer() {
                             <div className="content">
                                 <h3>Send us an Email</h3>
                                 <p>
-                                    <a href="mailto:chioary@gmail.com">example@gmail.com</a>
+                                    <a href="mailto:office@bappeshakila.org">office@bappeshakila.org</a>
                                 </p>
                             </div>
                         </li>
@@ -133,9 +136,7 @@ function Footer() {
                             <div className="content">
                                 <h3>Ask any questions</h3>
                                 <p>
-                                    <a href="tel:2395550108">(239) 555-0108</a>
-                                    <span> - </span>
-                                    <a href="tel:2395550108">(239) 555-0108</a>
+                                    <a href="tel:+61402384501">+61 402 384 501</a>
                                 </p>
                             </div>
                         </li>
@@ -149,8 +150,8 @@ function Footer() {
                             <div className="site-footer__bottom-inner">
                                 <div className="site-footer__copyright">
                                     <p className="site-footer__copyright-text">
-                                        © 1995-2024 All rights for
-                                        <a href="#">Hermony</a> exclusive
+                                        © 2021-2026 All rights for
+                                        <a href="https://trionixit.com.au">Trionix IT</a> exclusive
                                     </p>
                                 </div>
                                 <div className="site-footer__bottom-menu-box">

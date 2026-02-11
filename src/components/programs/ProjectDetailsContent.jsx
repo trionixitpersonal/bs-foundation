@@ -42,14 +42,17 @@ function ProjectDetailsContent() {
                 </ul>
               </div>
               <div className="project-details__social">
-                <a href="#">
+                <a href="https://www.instagram.com/bappeshakilafoundation" target="_blank" rel="noopener noreferrer">
                   <span className="icon-instagram"></span>
                 </a>
-                <a href="#">
+                <a href="https://x.com/bappeshakila" target="_blank" rel="noopener noreferrer">
                   <span className="icon-twitter"></span>
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/bappeandshakilafoundation" target="_blank" rel="noopener noreferrer">
                   <span className="icon-facebook"></span>
+                </a>
+                <a href="https://www.tiktok.com/@bappeshakilafoundation" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-tiktok"></i>
                 </a>
               </div>
             </div>
