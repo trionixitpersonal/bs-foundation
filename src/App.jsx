@@ -1,5 +1,6 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route, useLocation } from 'react-router';
 import Layout from './components/common/Layout';
+import AdminApp from './admin/AdminApp';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
@@ -12,6 +13,13 @@ import Programs from './pages/Programs';
 import ProgramDetails from './pages/ProgramDetails';
 
 function App() {
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith('/admin');
+
+  if (isAdminRoute) {
+    return <AdminApp />;
+  }
+
   return (
     <Layout>
       <Routes>

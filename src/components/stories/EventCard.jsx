@@ -20,7 +20,7 @@ function EventCard({ event, delay }) {
         </div>
         <div className="event-one__content">
           <h3 className="event-one__title">
-            <Link to="/events">
+            <Link to="/blog-details">
               {event.title.split('\n').map((line, index) => (
                 <span key={index}>
                   {line}
@@ -34,7 +34,7 @@ function EventCard({ event, delay }) {
             <span>{event.date}</span>
           </p>
           <div className="event-one__btn-box">
-            <Link to="/events" className="event-one__btn">
+            <Link to="/blog-details" className="event-one__btn">
               <i className="icon-right-arrow"></i>
               <span>Read More</span>
             </Link>

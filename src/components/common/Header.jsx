@@ -96,37 +96,9 @@ function Header() {
                       <NavLink to="/about">About Us</NavLink>
                     </li>
                     <li
-                      className={`dropdown ${
-                        location.pathname === '/programs' ? 'current' : ''
-                      }`}
+                      className={location.pathname === '/services' ? 'current' : ''}
                     >
-                      <Link to="/programs">Our Programs</Link>
-                      <ul className="shadow-box">
-                        <li>
-                          <Link to="/services">Program 1</Link>
-                        </li>
-                        <li>
-                          <Link to="/service-details">Program 2</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li
-                      className={`dropdown ${
-                        location.pathname === '/services' ||
-                        location.pathname === '/service-details'
-                          ? 'current'
-                          : ''
-                      }`}
-                    >
-                      <a href="#">Services</a>
-                      <ul className="shadow-box">
-                        <li>
-                          <Link to="/services">Services</Link>
-                        </li>
-                        <li>
-                          <Link to="/service-details">Service Details</Link>
-                        </li>
-                      </ul>
+                      <NavLink to="/services">Services</NavLink>
                     </li>
                     <li
                       className={location.pathname === '/stories' ? 'current' : ''}
